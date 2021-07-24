@@ -7,7 +7,7 @@
     pip install -r requirements.txt
     ```
 2. Далее заходим в config.json и заполняем конфиг
-                   Токен Kate Mobile: https://vkhost.github.io/
+                   [Токен Kate Mobile](https://vkhost.github.io/)
 3. После чего пишем коману запуска:
     ```shell script
     python vkcomm.py
