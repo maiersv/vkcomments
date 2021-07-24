@@ -4,6 +4,7 @@
     ```shell script
     git clone https://github.com/klimenko666/vkcomments
     cd vkcomments
+    pip install -r requirements.txt
     ```
 2. Далее заходим в config.json и заполняем конфиг
                    Токен Kate Mobile: https://vkhost.github.io/
