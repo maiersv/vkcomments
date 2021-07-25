@@ -20,13 +20,14 @@ token = config.token
 rts = config.owner_id
 post = config.post_id
 message = config.message
+attachments = config.attachments
 
 vk = vk_api.VkApi(token=token)
 vk._auth_token()
 
 while True:
     try:
-        response = vk.method("wall.createComment", {"owner_id": rts, "post_id": post, "message": message})
+        response = vk.method("wall.createComment", {"owner_id": rts, "post_id": post, "message": message, "attachments": attachments})
         os.system('cls||clear')
         print(Fore.MAGENTA + banner)
         print(Fore.GREEN + f'Оставлен комментарий с текстом "{message}" #' + str(a))
